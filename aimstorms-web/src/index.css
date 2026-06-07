@@ -1,0 +1,876 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* // common */
+/* // common */
+
+.text-orange {
+  color: #FF7100;
+}
+
+.home-inner,
+.services-subHeading,
+.hotItwork,
+.work-subHeading,
+.client-subHeading,
+.quote-para,
+.footer-para,
+.portfolio-section-subHeading,
+.about-section-subHeading,
+.whoWeare-subHeading,
+.howWework-subHeading,
+.phase-label,
+.team-para,
+.contact-subHeading {
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 16px;
+  color: #635B52;
+}
+
+.home-para,
+.service-para,
+.ready-para,
+.portfolio-section-para,
+.about-section-para,
+.about-director-para,
+.built-para,
+.contact-para {
+  color: #635B52;
+  font-family: "Inter", sans-serif;
+}
+
+.services-home-font-display,
+.work-heading,
+.client-heading,
+.howWework-heading,
+.team-heading {
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  font-family: Fraunces, Times New Roman, serif;
+}
+
+/* // common */
+/* // common */
+
+
+
+/* // body */
+
+.grain {
+  background-image: radial-gradient(#0e0a0714 1px, #0000 1px);
+  background-size: 3px 3px;
+  background-color: #F7F4EE;
+}
+
+/* // body */
+
+
+
+/* // header  */
+/* // header  */
+
+.navbar-glass {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.font-display {
+  font-family: Fraunces, Times New Roman, serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2em;
+  line-height: 16px;
+  font-family: "Inter", sans-serif;
+  color: black;
+  transition: all 0.4s ease;
+}
+
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #FF7100;
+}
+
+.active {
+  color: #ff7100 !important;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 20px;
+}
+
+.navbar-brand:hover .orange-dot {
+  color: black;
+}
+
+.nav-btn {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2em;
+  line-height: 16px;
+  font-family: "Inter", sans-serif;
+  transition: all 0.8s ease;
+}
+
+.nav-btn:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.8s ease;
+}
+
+.nav-btn:hover .nav-icon {
+  color: #FF7100;
+}
+
+.menu-icon {
+  color: black !important;
+  border-color: black;
+  border: solid 1.4px;
+}
+
+.menu-icon:hover {
+  color: #FF7100 !important;
+  background-color: black;
+}
+
+/* // header  */
+/* // header  */
+
+
+
+/* // home-section  */
+/* // home-section */
+
+.home-heading {
+  font-family: Fraunces, Times New Roman, serif;
+  font-size: clamp(3rem, 10vw, 10.5625rem);
+}
+
+.home-para {
+  font-size: 18px;
+}
+
+.underline-word {
+  text-decoration: underline #FF7100;
+  color: black;
+}
+
+.home-btn1 {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2em;
+  line-height: 16px;
+  font-family: "Inter", sans-serif;
+  outline: solid 1px black;
+  background-color: black;
+  color: white;
+}
+
+.home-btn1:hover {
+  background-color: black;
+  color: white;
+}
+
+.arrow-right {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.home-btn1:hover .arrow-right {
+  transform: translateX(6px);
+}
+
+.home-btn2 {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2em;
+  line-height: 16px;
+  font-family: "Inter", sans-serif;
+  background-color: #F7F4EE;
+  outline: solid 1px black;
+  transition: all 0.8s ease;
+}
+
+.home-btn2:hover {
+  background-color: black;
+  outline: solid 1px black;
+  color: white;
+  transition: all 0.8s ease;
+}
+
+.home-font-display {
+  font-size: clamp(2rem, 5vw, 3.75rem);
+  font-family: Fraunces, Times New Roman, serif;
+}
+
+.home-para-display {
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 16px;
+}
+
+/* // home-section  */
+/* // home-section */
+
+
+
+/* // marquee-text-section  */
+/* // marquee-text-section  */
+
+.rolling-services {
+  font-size: clamp(1.5rem, 4vw, 3rem) !important;
+}
+
+.marquee-section {
+  background-color: black;
+}
+
+.marquee {
+  --gap: 2rem;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+}
+
+.marquee-content {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+  gap: var(--gap);
+  animation: scroll 60s linear infinite;
+  color: white;
+}
+
+.marquee-content span {
+  white-space: nowrap;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+/* // marquee-text-section  */
+/* // marquee-text-section  */
+
+
+
+/* // Services-section */
+/* // Services-section */
+
+.services-numbox {
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 16px;
+}
+
+.services-heading {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Fraunces, Times New Roman, serif;
+}
+
+
+.service-card {
+  transition: all 0.5s ease;
+}
+
+.service-card:hover {
+  background-color: black !important;
+  color: white;
+  transition: all 0.8s ease;
+}
+
+.arrow {
+  font-family: monospace;
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.service-card:hover .arrow {
+  opacity: 1;
+}
+
+.service-num {
+  transition: color 1s ease;
+}
+
+.service-card:hover .service-num {
+  color: #FF7100;
+}
+
+.service-para {
+  font-size: 18px;
+}
+
+.service-card:hover .service-para {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* // Services-section */
+/* // Services-section */
+
+
+
+/* // work-section */
+/* // work-section */
+
+.work-project-btn {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2em;
+  font-family: "Inter", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.work-project-btn:hover {
+  color: #FF7100;
+}
+
+/* // work-section */
+/* // work-section */
+
+
+
+/* // portfolioLis-section */
+/* // portfolioLis-section */
+
+.portfolio-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #222;
+}
+
+.portfolio-item {
+  border-bottom: 1px solid #222;
+}
+
+.portfolio-link {
+  align-items: center;
+  padding: 32px 24px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.portfolio-link:hover {
+  background: black;
+  color: white;
+  transition: all 0.8s ease;
+}
+
+.portfolio-number {
+  font-size: 12px;
+  color: #635B52;
+  transition: color 0.3s ease;
+}
+
+.portfolio-link:hover .portfolio-number {
+  color: #FF7100;
+}
+
+.portfolio-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1;
+}
+
+.portfolio-category,
+.portfolio-year,
+.portfolio-arrow {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #635B52;
+  transition: color 0.3s ease;
+}
+
+.portfolio-link:hover .portfolio-category,
+.portfolio-link:hover .portfolio-year,
+.portfolio-link:hover .portfolio-arrow {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.portfolio-arrow {
+  font-size: 16px;
+}
+
+
+.portfolioList-heading {
+  font-family: Fraunces, Times New Roman, serif;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+.portfolioList-para {
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 16px;
+}
+
+
+/* // portfolioLis-section */
+/* // portfolioLis-section */
+
+
+
+/* // client-section */
+/* // client-section */
+
+.client-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  transition: all 0.8s ease;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Fraunces, Times New Roman, serif;
+}
+
+.client-card:hover {
+  background-color: #FF7100 !important;
+  color: #111;
+  transition: all 0.8s ease;
+}
+
+/* // client-section */
+/* // client-section */
+
+
+
+/* // quote-section */
+/* // quote-section */
+
+.quote-comma {
+  color: #FF7100;
+  font-size: 72px;
+  font-family: Fraunces, Times New Roman, serif;
+  margin-bottom: -35px;
+}
+
+.quote-heading {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  font-family: Fraunces, Times New Roman, serif;
+}
+
+/* // quote-section */
+/* // quote-section */
+
+
+
+/* // ready-Section */
+/* // ready-Section */
+
+#ready,
+#built,
+#about-director {
+  background: #111111;
+  color: #f5f1e8;
+}
+
+.ready-subHeading,
+.built-subHeading {
+  color: #FF7100;
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 16px;
+}
+
+.ready-heading,
+.built-heading {
+  font-family: Fraunces, Times New Roman, serif;
+  font-size: clamp(3rem, 8vw, 8.75rem);
+}
+
+.ready-btn,
+.built-btn {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2em;
+  line-height: 16px;
+  font-family: "Inter", sans-serif;
+  outline: solid 1px white;
+  background-color: black;
+  color: white;
+  transition: all 0.8s ease;
+}
+
+.ready-btn:hover,
+.built-btn:hover {
+  outline: solid 1px #FF7100;
+  background-color: #FF7100;
+  color: black;
+  transition: all 0.8s ease;
+}
+
+.ready-para,
+.built-para {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* // ready-Section */
+/* // ready-Section */
+
+
+
+/* // footer */
+/* // footer */
+
+.footer {
+  background: #111111;
+}
+
+.footer-para {
+  color: #635B52;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #FF7100;
+  text-decoration: none;
+}
+
+.footer-logo {
+  font-size: 30px;
+  color: white;
+  font-family: Fraunces, Times New Roman, serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+
+
+/* // portfolio page */
+/* // portfolio page */
+
+.portfolio-section-heading,
+.about-section-heading,
+.contact-heading {
+  font-size: clamp(3.5rem, 9vw, 7.625rem);
+  font-family: Fraunces, Times New Roman, serif;
+}
+
+.portfolio-section-para,
+.about-section-para,
+.about-director-para {
+  font-size: 18px;
+}
+
+.filter-btn {
+  border: 1px solid #111;
+  background: transparent;
+  padding: 10px 16px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: #111;
+  color: white;
+  transition: all 0.8s ease;
+}
+
+.portfolio-section-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  display: block;
+  text-decoration: none;
+}
+
+.portfolio-section-img {
+  width: 100%;
+  display: block;
+  transition: transform 0.7s ease;
+}
+
+.portfolio-section-card:hover .portfolio-section-img {
+  transform: scale(1.08);
+}
+
+.portfolio-section-meta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+  z-index: 2;
+
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  font-family: "JetBrains Mono", monospace;
+}
+
+.portfolio-section-overlay {
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0);
+
+  display: flex;
+  align-items: flex-end;
+
+  padding: 1.5rem;
+
+  transition: 0.4s ease;
+}
+
+.portfolio-section-card:hover .portfolio-section-overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.portfolio-section-content {
+  width: 100%;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.4s ease;
+}
+
+.portfolio-section-card:hover .portfolio-section-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.portfolio-section-service {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.portfolio-section-title {
+  color: #FF7100;
+  margin: 0;
+  font-size: clamp(1.5rem, 2vw, 2.75rem);
+  line-height: 1;
+  font-family: Fraunces, Times New Roman, serif;
+  /* color: rgba(255, 255, 255, 0.75); */
+}
+
+.portfolio-section-arrow {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* // portfolio page */
+/* // portfolio page */
+
+
+
+/* // About page */
+/* // About page */
+
+.whoWeare-para {
+  font-size: 23px;
+  color: black;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.whoWeare-subpara {
+  font-size: 14px;
+  color: #635B52;
+  font-family: "Inter", sans-serif;
+}
+
+
+.process-section {
+  padding: 80px 0;
+}
+
+.process-card {
+  background: #ece8de;
+  border: 1px solid rgba(15, 15, 14, 0.15);
+  border-radius: 24px;
+  transition: all 0.3s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-5px);
+}
+
+.process-title {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 600;
+  color: #FF7100;
+  font-family: Fraunces, Times New Roman, serif;
+}
+
+.process-description {
+  font-size: 0.96rem;
+  color: #635B52;
+  font-family: "Inter", sans-serif;
+}
+
+
+.about-director-heading {
+  font-size: clamp(2rem, 5vw, 3.125rem);
+  font-family: Fraunces, Times New Roman, serif;
+}
+
+.about-director-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.about-director-para {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.about-director-subname {
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  color: #635B52;
+  font-weight: 500;
+}
+
+.about-director-subHeading {
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 16px;
+  color: #FF7100;
+}
+
+.team-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.team-title {
+  font-weight: 800;
+  color: #FF7100;
+  font-size: 24px;
+  font-family: Fraunces, Times New Roman, serif;
+}
+
+
+
+
+/* // contact page */
+/* // contact page */
+
+.contact-para {
+  font-size: 18px;
+}
+
+.contactForm-form {
+  background-color: #fff;
+  border: 1px solid #635B52;
+  border-radius: 24px;
+}
+
+.contactForm-input {
+  border-radius: 14px;
+  min-height: 50px;
+  border: 1px solid #635B52;
+  box-shadow: none !important;
+}
+
+.contactForm-input:focus {
+  border-color: #111;
+}
+
+.contactForm-textarea {
+  min-height: 180px;
+  resize: none;
+}
+
+.contactForm-btn {
+  border: none;
+  background: #111;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 999px;
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  opacity: 0.9;
+}
+
+.info-card {
+  background: #fff;
+  border: 1px solid #635B52;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.info-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #f3f3f3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18px;
+}
+
+.info-card h3 {
+  margin-top: 11px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.info-card p {
+  color: #666;
+  margin-bottom: 0;
+}
