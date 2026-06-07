@@ -157,34 +157,34 @@ export default function Home() {
 
     return (
         <div>
-            <section id="home" class=" mx-md-5 mx-3 py-5">
-                <div class="d-flex justify-content-between home-inner flex-wrap">
+            <section id="home" className=" mx-md-5 mx-3 py-5">
+                <div className="d-flex justify-content-between home-inner flex-wrap">
                     <span>Brand Consulting · Greater Noida</span>
                     <span>100+ Brands · 10+ Years</span>
                 </div>
-                <h1 class="py-3 home-heading">Strategic<br /><span class="fst-italic">brand</span> consulting<span class="text-orange orange-dot">.</span></h1>
-                <div class="d-flex justify-content-end py-4">
-                    <p class="col-12 col-md-6 home-para">We provide the finest communication and brand consulting solutions that enable businesses and individuals to <em class="underline-word">outshine</em> at their best.</p>
+                <h1 className="py-3 home-heading">Strategic<br /><span className="fst-italic">brand</span> consulting<span className="text-orange orange-dot">.</span></h1>
+                <div className="d-flex justify-content-end py-4">
+                    <p className="col-12 col-md-6 home-para">We provide the finest communication and brand consulting solutions that enable businesses and individuals to <em className="underline-word">outshine</em> at their best.</p>
                 </div>
-                <div class="d-flex flex-column flex-sm-row gap-3 mb-5">
-                    <a href="#contact" class="btn py-2 py-md-3 px-2 px-md-4 home-btn1">Get Started <i class="bi bi-arrow-right nav-icon arrow-right"></i></a>
-                    <a href="#work" class="btn py-2 py-md-3 px-2 px-md-4 home-btn2">View Work</a>
+                <div className="d-flex flex-column flex-sm-row gap-3 mb-5">
+                    <a href="#contact" className="btn py-2 py-md-3 px-2 px-md-4 home-btn1">Get Started <i className="bi bi-arrow-right nav-icon arrow-right"></i></a>
+                    <a href="#work" className="btn py-2 py-md-3 px-2 px-md-4 home-btn2">View Work</a>
                 </div>
-                <div class="row mb-5 pt-0 mx-1 px-0 pt-md-5">
-                    <div class="col-6 col-md-3 px-2 px-sm-5 py-2 py-sm-5 border-1 border border-dark">
-                        <div class="home-font-display">10+</div>
-                        <div class="home-para-display">Years experience</div>
+                <div className="row mb-5 pt-0 mx-1 px-0 pt-md-5">
+                    <div className="col-6 col-md-3 px-2 px-sm-5 py-2 py-sm-5 border-1 border border-dark">
+                        <div className="home-font-display">10+</div>
+                        <div className="home-para-display">Years experience</div>
                     </div>
-                    <div class="col-6 col-md-3 px-2 px-sm-5 py-2 py-sm-5 border-1 border border-dark">
-                        <div class="home-font-display">360°</div>
-                        <div class="home-para-display">Marketing solutions</div></div>
-                    <div class="col-6 col-md-3 px-2 px-sm-5 py-2 py-sm-5 border-1 border border-dark">
-                        <div class="home-font-display">120+</div>
-                        <div class="home-para-display">Brands served</div>
+                    <div className="col-6 col-md-3 px-2 px-sm-5 py-2 py-sm-5 border-1 border border-dark">
+                        <div className="home-font-display">360°</div>
+                        <div className="home-para-display">Marketing solutions</div></div>
+                    <div className="col-6 col-md-3 px-2 px-sm-5 py-2 py-sm-5 border-1 border border-dark">
+                        <div className="home-font-display">120+</div>
+                        <div className="home-para-display">Brands served</div>
                     </div>
-                    <div class="col-6 col-md-3 px-2 px-sm-5 py-2 py-sm-5 border-1 border border-dark">
-                        <div class="home-font-display">14</div>
-                        <div class="home-para-display">Core capabilities</div>
+                    <div className="col-6 col-md-3 px-2 px-sm-5 py-2 py-sm-5 border-1 border border-dark">
+                        <div className="home-font-display">14</div>
+                        <div className="home-para-display">Core capabilities</div>
                     </div>
                 </div>
             </section>
@@ -209,12 +209,12 @@ export default function Home() {
                 </div>
             </section>
 
-            <section id="services" class="mx-md-5 mx-3 py-5">
+            <section id="services" className="mx-md-5 mx-3 py-5">
                 <div>
-                    <div class="services-subHeading">— Core Capabilities</div>
+                    <div className="services-subHeading">— Core Capabilities</div>
                     <div className="row d-flex align-items-end">
-                        <h2 class="col-12 col-md-7 services-home-font-display">Our services<span class="text-orange orange-dot">.</span></h2>
-                        <p class="col-12 col-md-5 service-para mt-2 mt-md-0">Twelve disciplines under one roof. Each engagement is custom-shaped, but the standard is invariant: it has to move the business and read like the brand.</p>
+                        <h2 className="col-12 col-md-7 services-home-font-display">Our services<span className="text-orange orange-dot">.</span></h2>
+                        <p className="col-12 col-md-5 service-para mt-2 mt-md-0">Twelve disciplines under one roof. Each engagement is custom-shaped, but the standard is invariant: it has to move the business and read like the brand.</p>
                     </div>
                 </div>
 
@@ -245,12 +245,12 @@ export default function Home() {
                 </div>
             </section>
 
-            <section id="work" class="px-3 px-md-5 py-5 border-bottom border-top border-dark">
-                <div class="">
-                    <div class="work-subHeading">— Case Studies</div>
+            <section id="work" className="px-3 px-md-5 py-5 border-bottom border-top border-dark">
+                <div className="">
+                    <div className="work-subHeading">— Case Studies</div>
                     <div className="row align-items-end">
-                        <h2 class="col-12 col-md-8 mt-4 font-display text-6xl md:text-8xl work-heading">Work, in public<span className="text-orange orange-dot">.</span></h2>
-                        <a href="#" class="col-12 col-md-4 text-end work-project-btn">All projects <i class="bi bi-arrow-right"></i></a>
+                        <h2 className="col-12 col-md-8 mt-4 font-display text-6xl md:text-8xl work-heading">Work, in public<span className="text-orange orange-dot">.</span></h2>
+                        <a href="#" className="col-12 col-md-4 text-end work-project-btn">All projects <i className="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
                 <ul className="portfolio-list my-5">
@@ -280,10 +280,10 @@ export default function Home() {
                 </ul>
             </section>
 
-            <section id="clients" class="mx-md-5 mx-3 py-5">
+            <section id="clients" className="mx-md-5 mx-3 py-5">
                 <div>
-                    <div class="client-subHeading">— Client Feedback</div>
-                    <h2 class="client-heading mt-3 mt-md-0">Trusted by leaders<span class="text-orange orange-dot">.</span></h2>
+                    <div className="client-subHeading">— Client Feedback</div>
+                    <h2 className="client-heading mt-3 mt-md-0">Trusted by leaders<span className="text-orange orange-dot">.</span></h2>
                 </div>
                 <div className="row text-center g-0 py-5">
                     {clientList.map((client, index) => (
@@ -293,22 +293,22 @@ export default function Home() {
                     ))}
                 </div>
 
-                <figure class="row d-flex align-items-center justify-content-center">
-                    <div class="col-12 col-md-10 quote-comma">“</div>
-                    <blockquote class="colcol-12 col-md-10 quote-heading">Working with Aimstorms felt less like hiring an agency and more like adding a creative co-founder. Sharp instincts, ruthless edits, and a brand we finally recognize in the mirror.</blockquote>
-                    <figcaption class="col-12 col-md-10 mt-3 quote-para">— Founder, Gautami Wellness</figcaption>
+                <figure className="row d-flex align-items-center justify-content-center">
+                    <div className="col-12 col-md-10 quote-comma">“</div>
+                    <blockquote className="colcol-12 col-md-10 quote-heading">Working with Aimstorms felt less like hiring an agency and more like adding a creative co-founder. Sharp instincts, ruthless edits, and a brand we finally recognize in the mirror.</blockquote>
+                    <figcaption className="col-12 col-md-10 mt-3 quote-para">— Founder, Gautami Wellness</figcaption>
                 </figure>
             </section>
 
-            <section id="ready" class="px-md-5 px-3 py-5">
-                <div class="row mb-0 mb-md-5">
-                    <div class="col-12 col-md-6">
-                        <div class="ready-subHeading">— Ready to start?</div>
-                        <h2 class="ready-heading mt-3 mt-md-0">Let's build the<br /><span class="fst-italic fw-light">version 2.0</span> of your brand<span class="text-orange orange-dot">.</span></h2>
+            <section id="ready" className="px-md-5 px-3 py-5">
+                <div className="row mb-0 mb-md-5">
+                    <div className="col-12 col-md-6">
+                        <div className="ready-subHeading">— Ready to start?</div>
+                        <h2 className="ready-heading mt-3 mt-md-0">Let's build the<br /><span className="fst-italic fw-light">version 2.0</span> of your brand<span className="text-orange orange-dot">.</span></h2>
                     </div>
-                    <div class="col-12 col-md-6 d-flex flex-column justify-content-end">
-                        <p class="ready-para mt-4 mt-md-5 pb-3">Tell us what you're building. We reply within 24 hours with a clear sense of fit, scope, and the next concrete step.</p>
-                        <a href="mailto:hello@aimstorms.com" class="btn py-2 py-md-3 px-2 px-md-4 ready-btn align-self-start">hello@aimstorms.com →</a>
+                    <div className="col-12 col-md-6 d-flex flex-column justify-content-end">
+                        <p className="ready-para mt-4 mt-md-5 pb-3">Tell us what you're building. We reply within 24 hours with a clear sense of fit, scope, and the next concrete step.</p>
+                        <a href="mailto:hello@aimstorms.com" className="btn py-2 py-md-3 px-2 px-md-4 ready-btn align-self-start">hello@aimstorms.com →</a>
                     </div>
                 </div>
             </section>

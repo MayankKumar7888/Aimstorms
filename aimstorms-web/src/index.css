@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #F7F4EE;
+}
+
 .text-orange {
   color: #FF7100;
 }
@@ -56,14 +60,15 @@
   background-image: radial-gradient(#0e0a0714 1px, #0000 1px);
   background-size: 3px 3px;
   background-color: #F7F4EE;
+  min-height: 100vh;
 }
 
 
 .navbar-glass {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(247, 244, 238, 0.82);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 
 .font-display {

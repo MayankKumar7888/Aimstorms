@@ -1,13 +1,13 @@
 export default function Contact() {
     return (
         <div>
-            <section id="contact" class="px-md-5 px-3 py-5">
-                <div class="col-12 contact-subHeading">
+            <section id="contact" className="px-md-5 px-3 py-5">
+                <div className="col-12 contact-subHeading">
                     <span>Contact</span>
                 </div>
-                <h1 class="col-12 contact-heading mt-3 mt-md-4">Let's build something <span class="fst-italic text-orange">remarkable</span><span class="text-orange orange-dot">.</span></h1>
-                <div class="col-12 contact-para d-flex justify-content-start justify-content-md-end mt-4">
-                    <p class="col-12 col-md-7 col-lg-5">Tell us a bit about your brand and what you're trying to achieve. We'll get back within one business day.</p>
+                <h1 className="col-12 contact-heading mt-3 mt-md-4">Let's build something <span className="fst-italic text-orange">remarkable</span><span className="text-orange orange-dot">.</span></h1>
+                <div className="col-12 contact-para d-flex justify-content-start justify-content-md-end mt-4">
+                    <p className="col-12 col-md-7 col-lg-5">Tell us a bit about your brand and what you're trying to achieve. We'll get back within one business day.</p>
                 </div>
             </section>
 

@@ -47,30 +47,30 @@ export default function About() {
 
     return (
         <div>
-            <section class="px-md-5 px-3 py-5">
-                <div class="col-12 about-section-subHeading">
+            <section className="px-md-5 px-3 py-5">
+                <div className="col-12 about-section-subHeading">
                     <span>About the studio</span>
                 </div>
-                <h1 class="col-12 about-section-heading mt-3 mt-md-4">A studio that makes brands <span class="fst-italic text-orange">outshine</span><span class="text-orange orange-dot">.</span></h1>
-                <div class="col-12 about-section-para d-flex justify-content-start justify-content-md-end mt-4">
-                    <p class="col-12 col-md-7 col-lg-5">Aimstorms is a branding & digital studio providing the finest communication and brand solutions that enable businesses and individuals to outshine at their best — blending strategy, design and technology under one roof.</p>
+                <h1 className="col-12 about-section-heading mt-3 mt-md-4">A studio that makes brands <span className="fst-italic text-orange">outshine</span><span className="text-orange orange-dot">.</span></h1>
+                <div className="col-12 about-section-para d-flex justify-content-start justify-content-md-end mt-4">
+                    <p className="col-12 col-md-7 col-lg-5">Aimstorms is a branding & digital studio providing the finest communication and brand solutions that enable businesses and individuals to outshine at their best — blending strategy, design and technology under one roof.</p>
                 </div>
             </section>
 
-            <section id="whoWeare" class="mx-md-5 mx-3 pb-5">
+            <section id="whoWeare" className="mx-md-5 mx-3 pb-5">
                 <div>
-                    <div class="whoWeare-subHeading">— Who we are</div>
+                    <div className="whoWeare-subHeading">— Who we are</div>
                     <div className="row d-flex align-items-end justify-content-end">
-                        <p class="col-12 col-md-6 whoWeare-para mt-2 mt-md-2">A compact, senior team of strategists, designers, engineers and marketers — working out of a single studio in New Delhi, on a short list of brands at a time.</p>
-                        <p class="col-12 col-md-4 mt-2 mt-md-0 whoWeare-subpara">We're deliberately small. No layers between you and the people doing the work — founders sit in every review, every week.</p>
+                        <p className="col-12 col-md-6 whoWeare-para mt-2 mt-md-2">A compact, senior team of strategists, designers, engineers and marketers — working out of a single studio in New Delhi, on a short list of brands at a time.</p>
+                        <p className="col-12 col-md-4 mt-2 mt-md-0 whoWeare-subpara">We're deliberately small. No layers between you and the people doing the work — founders sit in every review, every week.</p>
                     </div>
                 </div>
             </section>
 
-            <section id="howWework" class="mx-md-5 mx-3 pb-5">
+            <section id="howWework" className="mx-md-5 mx-3 pb-5">
                 <div>
-                    <div class="howWework-subHeading">— How we work</div>
-                    <h2 class="mt-3 howWework-heading">A four-phase process<span className="text-orange orange-dot">.</span></h2>
+                    <div className="howWework-subHeading">— How we work</div>
+                    <h2 className="mt-3 howWework-heading">A four-phase process<span className="text-orange orange-dot">.</span></h2>
                 </div>
 
                 <div className="row g-3 my-3 my-md-4 ">
@@ -93,10 +93,10 @@ export default function About() {
                             <img src="https://aimstorms.com/aim-data/rasbir.jpeg" className="card-img-top" alt="Director Profile" />
                         </div>
                         <div className="col-12 col-lg-6">
-                            <div class="about-director-subHeading">— Leadership Note</div>
-                            <h2 class="mt-3 mb-4 about-director-heading">Director's Message</h2>
-                            <p class="about-director-para">At Aimstorms, we believe every brand has the power to stand out when strategy, creativity, and execution work together. Our vision has always been to help businesses grow with impactful digital experiences, meaningful brand stories, and performance-driven marketing solutions.</p>
-                            <p class="about-director-para mb-3 mb-md-5">We are committed to delivering quality, innovation, and long-term value to every client we work with. With a passionate in-house team and a results-oriented mindset, we continue to build solutions that inspire trust and drive growth.</p>
+                            <div className="about-director-subHeading">— Leadership Note</div>
+                            <h2 className="mt-3 mb-4 about-director-heading">Director's Message</h2>
+                            <p className="about-director-para">At Aimstorms, we believe every brand has the power to stand out when strategy, creativity, and execution work together. Our vision has always been to help businesses grow with impactful digital experiences, meaningful brand stories, and performance-driven marketing solutions.</p>
+                            <p className="about-director-para mb-3 mb-md-5">We are committed to delivering quality, innovation, and long-term value to every client we work with. With a passionate in-house team and a results-oriented mindset, we continue to build solutions that inspire trust and drive growth.</p>
                             <div className="align-items-end d-flex flex-column mt-5">
                                 <h5 className="about-director-name">Rasbir Kaur</h5>
                                 <h6 className="about-director-subname">Director, Aimstorms</h6>
@@ -126,8 +126,8 @@ export default function About() {
             </section>
 
             <section className="mx-md-5 mx-3 py-5">
-                <figure class="row text-center justify-content-center">
-                    <blockquote class="colcol-12 col-md-10 quote-heading"> <span className="text-orange orange-dot">“</span> To provide finest communication and brand consulting solutions that enable businesses and individuals to outshine at their best. <span className="text-orange orange-dot">”</span></blockquote>
+                <figure className="row text-center justify-content-center">
+                    <blockquote className="colcol-12 col-md-10 quote-heading"> <span className="text-orange orange-dot">“</span> To provide finest communication and brand consulting solutions that enable businesses and individuals to outshine at their best. <span className="text-orange orange-dot">”</span></blockquote>
                 </figure>
             </section>
         </div>
