@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-/* // common */
-/* // common */
-
 .text-orange {
   color: #FF7100;
 }
@@ -54,12 +51,6 @@
   font-family: Fraunces, Times New Roman, serif;
 }
 
-/* // common */
-/* // common */
-
-
-
-/* // body */
 
 .grain {
   background-image: radial-gradient(#0e0a0714 1px, #0000 1px);
@@ -67,12 +58,6 @@
   background-color: #F7F4EE;
 }
 
-/* // body */
-
-
-
-/* // header  */
-/* // header  */
 
 .navbar-glass {
   background: rgba(255, 255, 255, 0.15);
@@ -146,14 +131,6 @@
   background-color: black;
 }
 
-/* // header  */
-/* // header  */
-
-
-
-/* // home-section  */
-/* // home-section */
-
 .home-heading {
   font-family: Fraunces, Times New Roman, serif;
   font-size: clamp(3rem, 10vw, 10.5625rem);
@@ -224,13 +201,6 @@
   line-height: 16px;
 }
 
-/* // home-section  */
-/* // home-section */
-
-
-
-/* // marquee-text-section  */
-/* // marquee-text-section  */
 
 .rolling-services {
   font-size: clamp(1.5rem, 4vw, 3rem) !important;
@@ -273,14 +243,6 @@
     transform: translateX(calc(-100% - var(--gap)));
   }
 }
-
-/* // marquee-text-section  */
-/* // marquee-text-section  */
-
-
-
-/* // Services-section */
-/* // Services-section */
 
 .services-numbox {
   font-family: "JetBrains Mono", monospace;
@@ -334,13 +296,6 @@
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* // Services-section */
-/* // Services-section */
-
-
-
-/* // work-section */
-/* // work-section */
 
 .work-project-btn {
   text-transform: uppercase;
@@ -355,13 +310,6 @@
   color: #FF7100;
 }
 
-/* // work-section */
-/* // work-section */
-
-
-
-/* // portfolioLis-section */
-/* // portfolioLis-section */
 
 .portfolio-list {
   list-style: none;
@@ -437,15 +385,6 @@
   line-height: 16px;
 }
 
-
-/* // portfolioLis-section */
-/* // portfolioLis-section */
-
-
-
-/* // client-section */
-/* // client-section */
-
 .client-card {
   display: flex;
   justify-content: center;
@@ -464,14 +403,6 @@
   transition: all 0.8s ease;
 }
 
-/* // client-section */
-/* // client-section */
-
-
-
-/* // quote-section */
-/* // quote-section */
-
 .quote-comma {
   color: #FF7100;
   font-size: 72px;
@@ -484,13 +415,6 @@
   font-family: Fraunces, Times New Roman, serif;
 }
 
-/* // quote-section */
-/* // quote-section */
-
-
-
-/* // ready-Section */
-/* // ready-Section */
 
 #ready,
 #built,
@@ -542,14 +466,6 @@
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* // ready-Section */
-/* // ready-Section */
-
-
-
-/* // footer */
-/* // footer */
-
 .footer {
   background: #111111;
 }
@@ -575,11 +491,6 @@
   font-optical-sizing: auto;
   font-weight: 500;
 }
-
-
-
-/* // portfolio page */
-/* // portfolio page */
 
 .portfolio-section-heading,
 .about-section-heading,
@@ -695,21 +606,12 @@
   font-size: clamp(1.5rem, 2vw, 2.75rem);
   line-height: 1;
   font-family: Fraunces, Times New Roman, serif;
-  /* color: rgba(255, 255, 255, 0.75); */
 }
 
 .portfolio-section-arrow {
   color: white;
   font-size: 1.5rem;
 }
-
-/* // portfolio page */
-/* // portfolio page */
-
-
-
-/* // About page */
-/* // About page */
 
 .whoWeare-para {
   font-size: 23px;
@@ -798,12 +700,6 @@
   font-size: 24px;
   font-family: Fraunces, Times New Roman, serif;
 }
-
-
-
-
-/* // contact page */
-/* // contact page */
 
 .contact-para {
   font-size: 18px;
