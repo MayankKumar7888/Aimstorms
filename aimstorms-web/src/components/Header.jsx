@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <header className="sticky-top z-40 border-bottom border-dark navbar-glass">
+        <header className="sticky-top navbar-glass">
             <nav className="navbar navbar-expand-lg px-md-5 px-3 py-3">
                 <div className="container-fluid">
                     <NavLink className="navbar-brand logo font-display" to="/">Aimstorms<span className="text-orange orange-dot">.</span></NavLink>
