@@ -127,9 +127,7 @@ export default function About() {
 
             <section className="mx-md-5 mx-3 py-5">
                 <figure class="row text-center justify-content-center">
-                    {/* <div class="col-12 col-md-10 quote-comma">“</div> */}
                     <blockquote class="colcol-12 col-md-10 quote-heading"> <span className="text-orange orange-dot">“</span> To provide finest communication and brand consulting solutions that enable businesses and individuals to outshine at their best. <span className="text-orange orange-dot">”</span></blockquote>
-                    {/* <figcaption class="col-12 col-md-10 mt-3 quote-para">— Founder, Gautami Wellness</figcaption> */}
                 </figure>
             </section>
         </div>
